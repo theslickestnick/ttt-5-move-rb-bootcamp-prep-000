@@ -14,5 +14,5 @@ def move(board, user_input, character = "X")
   def update_array_at_with(board, user_input, character)
       board[user_input] = character
   end
-  update_array_at_with(board, user_input, character = "X")
+  update_array_at_with(board, user_input, character)
 end
